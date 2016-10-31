@@ -8,7 +8,7 @@
   forLoop=[ ...forLoop,(`I am ${i} strange loops.`)];
   }
 }*/
-var array=[];
+var array=forLoop[];
 function forLoop(array){
   for (let i=0;i<=25;i++){
    if(i===1){

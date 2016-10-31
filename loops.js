@@ -1,4 +1,4 @@
-var forLoop=[];
+function forLoop=[]{
 
  for (let i=0;i<=25;i++){
   if(i===1){
@@ -7,4 +7,5 @@ var forLoop=[];
   else{
   forLoop=[ ...forLoop,(`I am ${i} strange loops.`)];
   }
+}
 }

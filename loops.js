@@ -15,6 +15,6 @@ function forLoop(array){
   array=[`I am ${i} strange loop.`];
    }
    else{
-   array=[...array,(`I am ${i} strange loops.`)];
+   array=[...array,(`I am ${i} strange loop.`)];
    }
 }}}

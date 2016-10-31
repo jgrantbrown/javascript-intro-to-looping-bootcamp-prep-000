@@ -8,13 +8,13 @@
   forLoop=[ ...forLoop,(`I am ${i} strange loops.`)];
   }
 }*/
-
-function forLoop([]){
+var array=[];
+function forLoop(array){
   for (let i=0;i<=25;i++){
    if(i===1){
    forLoop=[`I am ${i} strange loop.`];
    }
    else{
-   forLoop=[ ...forLoop,(`I am ${i} strange loops.`)];
+   forLoop=[ ...array,(`I am ${i} strange loops.`)];
    }
 }

@@ -12,9 +12,9 @@ var array=[];
 function forLoop(array){
   for (let i=0;i<=25;i++){
    if(i===1){
-   return array=[`I am ${i} strange loop.`];
+  array=[`I am ${i} strange loop.`];
    }
    else{
-   return array=[ ...array,(`I am ${i} strange loops.`)];
+   array=[...array,(`I am ${i} strange loops.`)];
    }
-}
+}}}

@@ -19,7 +19,7 @@ function whileLoop(number){
 }
 
 
-function doWhileLoop(array){
+/* function doWhileLoop(array){
   return array.length()>0}
 
   do{array.shift();

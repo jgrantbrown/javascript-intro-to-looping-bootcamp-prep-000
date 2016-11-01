@@ -17,3 +17,12 @@ function whileLoop(number){
     return "done";
 
 }
+
+
+function doWhileLoop(array){
+  return array.length()>0}
+  
+  do{array.shift();
+  }
+  while(doWhileLooop());
+}

@@ -19,12 +19,10 @@ function whileLoop(number){
 }
 
 
-/* function doWhileLoop(array){
-  return array.length()>0}
 
-  do{array.shift();
-  }
-  while(function maybeTrue() {
-  return Math.random() >= 0.5
-});
-}
+function doWhileLoop(array)
+{
+do{array.shift()
+}while(function maybeTrue() {
+  return array.length> 0 && maybeTrue());
+}}
